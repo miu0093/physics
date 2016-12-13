@@ -1,0 +1,20 @@
+﻿Build started 12/12/2016 22:17:58.
+     1>Project "E:\practise\GameTech_2017\Build\Tuts_Physics\Tuts_Physics.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\practise\GameTech_2017\Build\Release\Tuts_Physics.exe" /INCREMENTAL:NO /NOLOGO nclgl.lib ncltech.lib enet.lib ws2_32.lib Winmm.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\practise\GameTech_2017\Build\Release\Tuts_Physics.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\practise\GameTech_2017\Build\Release\Tuts_Physics.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+     1>main.obj : error LNK2001: unresolved external symbol "protected: __thiscall PhysicsEngine::PhysicsEngine(void)" (??0PhysicsEngine@@IAE@XZ)
+     1>main.obj : error LNK2001: unresolved external symbol "public: void __thiscall PhysicsEngine::Update(float)" (?Update@PhysicsEngine@@QAEXM@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "public: void __thiscall PhysicsEngine::AddPhysicsObject(class PhysicsObject *)" (?AddPhysicsObject@PhysicsEngine@@QAEXPAVPhysicsObject@@@Z)
+     1>ncltech.lib(SceneManager.obj) : error LNK2001: unresolved external symbol "public: void __thiscall PhysicsEngine::RemoveAllPhysicsObjects(void)" (?RemoveAllPhysicsObjects@PhysicsEngine@@QAEXXZ)
+     1>ncltech.lib(SceneManager.obj) : error LNK2001: unresolved external symbol "public: void __thiscall PhysicsEngine::SetDefaults(void)" (?SetDefaults@PhysicsEngine@@QAEXXZ)
+     1>ncltech.lib(Object.obj) : error LNK2001: unresolved external symbol "public: void __thiscall PhysicsEngine::RemovePhysicsObject(class PhysicsObject *)" (?RemovePhysicsObject@PhysicsEngine@@QAEXPAVPhysicsObject@@@Z)
+     1>ncltech.lib(SceneRenderer.obj) : error LNK2001: unresolved external symbol "public: void __thiscall PhysicsEngine::DebugRender(void)" (?DebugRender@PhysicsEngine@@QAEXXZ)
+     1>E:\practise\GameTech_2017\Build\Release\Tuts_Physics.exe : fatal error LNK1120: 7 unresolved externals
+     1>Done Building Project "E:\practise\GameTech_2017\Build\Tuts_Physics\Tuts_Physics.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.83

@@ -1,0 +1,16 @@
+﻿Build started 12/12/2016 15:46:07.
+     1>Project "E:\practise\GameTech_2017\Build\Tuts_Network_Client\Tuts_Network_Client.vcxproj" on node 3 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\practise\GameTech_2017\Build\Release\Tuts_Network_Client.exe" /INCREMENTAL:NO /NOLOGO nclgl.lib ncltech.lib enet.lib ws2_32.lib Winmm.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\practise\GameTech_2017\Build\Release\Tuts_Network_Client.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\practise\GameTech_2017\Build\Release\Tuts_Network_Client.lib" /MACHINE:X86 /SAFESEH Release\Net1_Client.obj
+         Release\main.obj
+         Generating code
+         0 of 3388 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         Tuts_Network_Client.vcxproj -> E:\practise\GameTech_2017\Build\Release\Tuts_Network_Client.exe
+     1>Done Building Project "E:\practise\GameTech_2017\Build\Tuts_Network_Client\Tuts_Network_Client.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.14
